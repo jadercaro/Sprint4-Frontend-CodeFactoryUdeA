@@ -1,0 +1,301 @@
+header{
+    position: absolute;
+    width: 1440px;
+    height: 65px;
+    left: 0px;
+    top: 0px;
+    background: #33691E;
+    border: 1px solid #000000;
+}
+
+.panel-lateral{
+    position: absolute;
+    width: 502px; 
+    height: 737px;
+    left: 0px;
+    top: 67px;
+    background: linear-gradient(90deg, rgba(51, 105, 30, 0.5) 0%, rgba(228, 228, 217, 0.5) 51.04%);
+}
+
+
+.panel-principal{
+    position: absolute;
+    width: 857px;
+    height: 608px;
+    left: 560px;
+    top: 130px;
+}
+
+.panel-informacion{
+    position: absolute;
+    width: 483px;
+    height: 152px;
+    left: 591px;
+    top: 170px;
+}
+.panel-izquierdo{
+    position: absolute;
+    width: 938px;
+    height: 735px;
+    left: 502px;
+    top: 65px;
+    background: #FFFFFF;
+}
+
+.mensaje1{
+    position: absolute;
+    left: 74px;
+    top: 18px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 39px;
+    padding: 10px;
+    color: black;
+}
+
+.mensaje2{
+    position: absolute;
+    left: 74px;
+    top: 80px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    padding: 10px;
+    color: blacks;
+}
+
+.mensaje3{
+    position: absolute;
+    width: 349px;
+    height: 54px;
+    left: 74px;
+    top: 300px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 39px;
+    color: #33691E;
+}
+
+
+.logo-inferior{
+    position: absolute;
+    width: 124px;
+    height: 159px;
+    left: 580px;
+    top: -20px;
+}
+
+
+.fecha{
+    position: absolute;
+    top:86px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 24px;
+    padding: 10px;
+}
+.nombre{
+    position: absolute;
+    top: 150px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 24px;
+    padding: 10px;
+}
+.carrera{
+    position: absolute;
+    top: 168px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 24px;
+    padding: 10px; 
+}
+.lista-ppal{
+    position: absolute;    
+    width: 260px;
+    height: 140px;
+    left: -30px;
+}
+.ceremonias{
+    position: absolute;
+    top: 150px; 
+    left: 80px;
+    font-family:'Inter';
+    padding: 4px;
+    background:linear-gradient(90deg, #215F00 0%, #E4E4D9 100%);
+    width: 300px;
+    color: white;
+}
+
+.lugar{
+    position: absolute;
+    left:80px;
+    top: 195px;
+    font-family:'Inter';
+    padding: 4px;
+    background:linear-gradient(90deg, #215F00 0%, #E4E4D9 100%);
+    width: 300px;
+    color: white;
+}
+
+.autorizador{
+    position: absolute;
+    left:80px;
+    top: 240px;
+    font-family:'Inter';
+    padding: 4px;
+    background:linear-gradient(90deg, #215F00 0%, #E4E4D9 100%);
+    width: 300px;
+    color: white;
+}
+.resolucion{
+    position: absolute;
+    left:80px;
+    top: 285px;
+    font-family:'Inter';
+    padding: 4px;
+    background:linear-gradient(90deg, #215F00 0%, #E4E4D9 100%);
+    width: 300px;
+    color: white;
+}
+
+.plazo-inscripciones{
+    position: absolute;
+    left:80px;
+    top: 330px;
+    font-family:'Inter';
+    padding: 4px;
+    background:linear-gradient(90deg, #215F00 0%, #E4E4D9 100%);
+    width: 300px;
+    color: white;
+}
+
+.fecha-elaboracion{
+    position: absolute;
+    left:80px;
+    top: 375px;
+    font-family:'Inter';
+    padding: 4px;
+    background:linear-gradient(90deg, #215F00 0%, #E4E4D9 100%);
+    width: 300px;
+    color: white;
+}
+.fecha-autorizacion{
+    position: absolute;
+    left:80px;
+    top: 420px;
+    font-family:'Inter';
+    padding: 4px;
+    background:linear-gradient(90deg, #215F00 0%, #E4E4D9 100%);
+    width: 300px;
+    color: white;
+}
+.fecha-pago-derechos{
+    position: absolute;
+    left:80px;
+    top: 465px;
+    font-family:'Inter';
+    padding: 4px;
+    background:linear-gradient(90deg, #215F00 0%, #E4E4D9 100%);
+    width: 300px;
+    color: white;
+}
+.request-ceremonia{
+    position: absolute;
+    top: 135px; 
+    left: -68px;
+    font-family:'Inter';
+    padding: 4px;
+    width: 300px;
+    color:#000000;
+}
+
+.request-lugar{
+    position: absolute;
+    left:-68px;
+    top: 178px;
+    font-family:'Inter';
+    padding: 4px;
+    width: 300px;
+    color: black;
+}
+
+.request-autorizador{
+    position: absolute;
+    left:-68px;
+    top: 224px;
+    font-family:'Inter';
+    padding: 4px;
+    width: 300px;
+    color: black;
+}
+.request-resolucion{
+    position: absolute;
+    left:-68px;
+    top: 270px;
+    font-family:'Inter';
+    padding: 4px;
+    width: 300px;
+    color: black;
+}
+
+.request-plazo-inscripciones{
+    position: absolute;
+    left: -68px;
+    top: 314px;
+    font-family:'Inter';
+    padding: 4px;
+    width: 300px;
+    color: black;
+}
+
+.request-fecha-autorizacion{
+    position: absolute;
+    left:-68px;
+    top: 358px;
+    font-family:'Inter';
+    padding: 4px;
+    width: 300px;
+    color: black;
+}
+.request-pago-derechos{
+    position: absolute;
+    left:-68px;
+    top: 402px;
+    font-family:'Inter';
+    padding: 4px;
+    width: 300px;
+    color: black;
+}
+
+.desplegable{
+    position: absolute;
+    left: -20px;
+    top:92px;
+    width: 123px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
